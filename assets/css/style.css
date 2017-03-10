@@ -127,7 +127,7 @@ nav {
 
 
 #search:hover, #calendar:hover {
-
+	opacity: 0.8;
 }
 
 #button-container {
@@ -144,7 +144,7 @@ nav {
 }
 
 #post:hover, #account:hover {
-
+	opacity: 0.8;
 }
 
 #search-bar {
@@ -161,11 +161,13 @@ nav {
 
 #craigs-list {
 	position: absolute;
-    width: 300px;
-    height: 200px;
+    /*width: 300px;
+    height: 200px;*/
+    font-size: 100px;
     top: 50%;
-    left: 65%;
-    margin: -100px 0 0 -150px;
+    left: 50%;
+    margin: -200px  0 0 0;
+    transform: translateX(-50%);
 }
 
 

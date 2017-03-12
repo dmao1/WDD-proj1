@@ -1,10 +1,11 @@
 body, html {
 	margin: 0;
-	position: fixed;
+	/*position: fixed;*/
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	/*overflow: hidden;*/
 }
 
 nav {
@@ -32,7 +33,7 @@ nav {
 .footer-bar {
 	background-color: purple;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 100%;
 	right: 0%;
 	transform: translateY(-100%);
@@ -160,9 +161,11 @@ nav {
 	transform: translateX(-50%);
 }
 
-#container {
-	/*position: relative;	
-*/}
+#nav-tools {
+	/*margin: 20px;*/
+	position: relative;
+	left: 25%;
+}
 
 #craigs-list {
 	position: absolute;
@@ -175,24 +178,32 @@ nav {
     transform: translateX(-50%);
 }
 
-.post-container .post img {
+.post img {
 	width: 20px;
 }
 
-.search-bar #search-icon img {
-	width: 20px;
+#alt-searchbox #search-icon img {
+	width: 10px;
 }
+
+#alt-searchbox a {
+	background-color: grey;
+	width: 10px;
+	height: 8px;
+}
+
 
 #sidebar {
 	background-color: purple;
 	float: left;
-	height: 100vh
+	height: 100vh;
+	position: fixed;
 
 }
 
 #sidebar-h1 {
 	margin: 10px;
-
+	text-align: center;
 }
 
 .sidebar-content {
@@ -230,13 +241,33 @@ nav {
 	margin: 20px;
 }
 
-.post-container {
-	/*margin: 0px auto;*/
-	/*position: relative;
-	left: 0px;
-	padding-top:0px;
-	width:240px;*/
-	float:right;
+.post {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 250px;
+	height: 300px;
+	float: right;
+	position: relative;
+	padding: 0px 20px;
+	margin: 20px;
+	right: 50px;
+}
+
+.post:hover {
+	box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2);
+}
+
+.img-container {
+	position: absolute;
+	max-width: 100px;
+	max-height: 200px;
+	align-content: center;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.pinfo-container {
+	padding: 2px 16px;
 }
 
 

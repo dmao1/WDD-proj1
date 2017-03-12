@@ -257,20 +257,68 @@ nav {
 	box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2);
 }
 
-.img-container {
-	position: absolute;
-	max-width: 100px;
-	max-height: 200px;
-	align-content: center;
-	overflow: hidden;
-	display: inline-block;
+.container {
+
 }
+
+.img-container {
+	max-width: 250px;
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.img-container img {
+	position: relative;
+	display: block;
+  	max-width: 300px;
+  	max-height: 200px;
+  	width: auto;
+  	height: auto;
+	margin: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	/*overflow: hidden;*/
+	/*z-index: 1;*/
+}
+
+.price {
+    position: absolute;
+    color: red;
+    font-size: 24px;
+    top: 0px;
+    background: azure;
+    transform: translateX(-10px);
+}
+
+/*.price b {
+	z-index: 100;
+    position: absolute;    
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+}*/
 
 .pinfo-container {
-	padding: 2px 16px;
+	/*padding: 2px 16px;*/
+	position: relative;
 }
 
 
+.pinfo-container img {
+	float: left;
+}
+
+.pinfo-container .title {
+	text-align: center;
+}
+
+.pinfo-container .description {
+	float: left;
+	padding-top: 10px;
+	position: absolute;
+}
 
 
 

@@ -24,11 +24,17 @@ nav {
 	position: fixed;
 }
 
+.footer {
+	position: relative;
+	/*right: 100%;*/
+}
+
 .footer-bar {
 	background-color: purple;
 	width: 100%;
 	position: absolute;
 	top: 100%;
+	right: 0%;
 	transform: translateY(-100%);
 }
 
@@ -147,11 +153,10 @@ nav {
 	opacity: 0.8;
 }
 
-#search-bar {
+#searchbox {
 	position: absolute;
 	top: 45%;
 	left: 50%;
-	/*transform: translate(-50%, -50%);*/
 	transform: translateX(-50%);
 }
 
@@ -230,8 +235,8 @@ nav {
 	/*position: relative;
 	left: 0px;
 	padding-top:0px;
-	width:240px;
-	float:right;*/
+	width:240px;*/
+	float:right;
 }
 
 

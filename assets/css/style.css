@@ -195,12 +195,19 @@ nav {
 }
 
 .top-buttons {
-
+	position: relative;
+	
 }
 
 .middle-buttons {
 	position: relative;
-	transform: translateX(25%);
+	left: 50%;
+	transform: translateX(-30%);
+
+}
+
+.button-container {
+	padding: 0px 10px 10px 10px;
 }
 
 .checkboxes {
@@ -213,7 +220,8 @@ nav {
 }
 
 .bottom-buttons {
-	
+	position: relative;
+
 	margin: 20px;
 }
 

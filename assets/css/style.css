@@ -13,7 +13,7 @@ nav {
 	margin: 0 auto;
 }
 
-.menu::after { /* Clearfix */
+.clearfix { /* Clearfix */
 	clear: both;
 }
 
@@ -169,5 +169,80 @@ nav {
     margin: -200px  0 0 0;
     transform: translateX(-50%);
 }
+
+.post-container .post img {
+	width: 20px;
+}
+
+.search-bar #search-icon img {
+	width: 20px;
+}
+
+#sidebar {
+	background-color: purple;
+	float: left;
+	height: 100vh
+
+}
+
+#sidebar-h1 {
+	margin: 10px;
+
+}
+
+.sidebar-content {
+	
+}
+
+.top-buttons {
+
+}
+
+.middle-buttons {
+	position: relative;
+	transform: translateX(25%);
+}
+
+.checkboxes {
+	margin: 20px;
+	
+}
+
+.chechboxes .box {
+	padding: 20px 0px 20px 0px;
+}
+
+.bottom-buttons {
+	
+	margin: 20px;
+}
+
+.post-container {
+	/*margin: 0px auto;*/
+	/*position: relative;
+	left: 0px;
+	padding-top:0px;
+	width:240px;
+	float:right;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

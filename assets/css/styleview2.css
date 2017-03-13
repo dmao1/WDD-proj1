@@ -1,11 +1,11 @@
 body, html {
 	margin: 0;
-	/*position: fixed;*/
+	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 nav {
@@ -86,7 +86,7 @@ nav {
 #nav-tools {
 	/*margin: 20px;*/
 	position: relative;
-	left: 25%;
+	left: 20%;
 }
 
 #alt-searchbox #search-icon img {
@@ -147,9 +147,9 @@ nav {
 	margin: 10px;
 	width: 60em;
 	height: 30em;
-	border: 1px solid black;
-	overflow: auto;
+	overflow-y: auto;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 table, th, td{
@@ -164,10 +164,12 @@ th, td{
 }
 
 th{
-	height: 50px;
 	vertical-align: middle;
+	background-color: #494E6B;
+  color: white;
 }
 
 tr:hover {
-	background-color: #f5f5f5
+	background-color: #b1b9c6;
+
 }

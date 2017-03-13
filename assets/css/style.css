@@ -50,7 +50,7 @@ nav {
 .menu-item, .footer-item, .footer-item2 {
 	float: left;
 	list-style: none;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Asap', sans-serif;
 }
 
 .menu-item a {
@@ -59,7 +59,7 @@ nav {
 	color: #fff;
 	padding: 10px 20px;
 	opacity: 0.4;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Asap', sans-serif;
 }
 
 .footer-item a, .footer-item2 a {
@@ -68,7 +68,7 @@ nav {
 	color: #fff;
 	padding: 5px 20px;
 	opacity: 0.4;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Asap', sans-serif;
 }
 
 .menu-item a:hover {
@@ -179,7 +179,7 @@ nav {
     left: 50%;
     margin: -200px  0 0 0;
     transform: translateX(-50%);
-		font-family: 'Grand Hotel', cursive;
+		font-family: 'Flamenco', cursive;
 		font-weight: 100;
 }
 

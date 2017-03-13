@@ -7,3 +7,13 @@ body, html {
 	right: 0;
 	/*overflow: hidden;*/
 }
+
+nav {
+	overflow: hidden;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.clearfix { /* Clearfix */
+	clear: both;
+}

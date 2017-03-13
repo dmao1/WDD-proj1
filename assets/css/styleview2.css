@@ -24,7 +24,7 @@ nav {
 }
 
 .footer-bar {
-	background-color: purple;
+	background-color: #494E6B;
 	width: 100%;
 	position: fixed;
 	top: 100%;
@@ -100,10 +100,12 @@ nav {
 }
 
 #sidebar {
-	background-color: purple;
+	background-color: #494E6B;
 	float: left;
 	height: 100vh;
 	position: fixed;
+	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 
 #sidebar-h1 {
@@ -139,4 +141,33 @@ nav {
 .bottom-buttons {
 	position: relative;
 	margin: 20px;
+}
+
+#list-container{
+	margin: 10px;
+	width: 60em;
+	height: 30em;
+	border: 1px solid black;
+	overflow: auto;
+	text-align: center;
+}
+
+table, th, td{
+	padding: 10px;
+	width: 100%;
+}
+
+th, td{
+	border-bottom: 1px solid #ddd;
+	text-align: left;
+	width: auto;
+}
+
+th{
+	height: 50px;
+	vertical-align: middle;
+}
+
+tr:hover {
+	background-color: #f5f5f5
 }

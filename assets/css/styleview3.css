@@ -36,7 +36,7 @@ nav {
 
 #nav-container {
 	position: relative;
-	margin-left: 12em;
+	margin-left: 220px;
 	align-content: center;
 }
 
@@ -158,7 +158,7 @@ nav {
 	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
 	position: relative;
-	transform: translate(90px, 0px);
+	transform: translateX(220px);
 }
 
 .post {

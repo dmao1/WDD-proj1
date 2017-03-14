@@ -6,6 +6,7 @@ body, html {
 	left: 0;
 	right: 0;
 	/*overflow: hidden;*/
+	background-color: #f2efe8;
 }
 
 nav {
@@ -24,7 +25,7 @@ nav {
 }
 
 .footer-bar {
-	background-color: #494E6B;;
+	background-color: #494E6B;
 	width: 100%;
 	position: fixed;
 	top: 100%;
@@ -135,7 +136,7 @@ nav {
 }
 
 #sidebar {
-	background-color: #494E6B;;
+	background-color: #b0aac2;
 	float: left;
 	height: 100vh;
 	position: fixed;
@@ -184,7 +185,7 @@ nav {
 }
 
 #container {
-	/*position: relative; 
+	/*position: relative;
 	width: 100%;
 	height: 29em;
 	overflow-y: auto;
@@ -192,7 +193,7 @@ nav {
 	/*transform: translateX(10%);*/
 
 	margin-top: 20px;
-	padding: 10px;
+	padding: 15px;
 	width: 80%;
 	height: 90%;
 	overflow-y: auto;
@@ -213,6 +214,7 @@ nav {
 	padding: 0px 20px;
 	margin: 20px;
 	transform: translateX(-20%);
+	background-color: #c2d4d8;
 }
 
 .post:hover {
@@ -249,7 +251,7 @@ nav {
 
 .pinfo-container {
 	position: relative;
-	background-color: pink;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 }

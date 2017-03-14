@@ -56,6 +56,7 @@ nav {
 #copyright {
 	position: absolute;
 	left: 50%;
+	color: white;
 }
 
 .footer-item a:hover, .footer-item2 a:hover {
@@ -74,6 +75,12 @@ nav {
 	transform: translateX(-100%);
 }
 
+/*#button-container {
+	position: absolute;
+	left: 80%;
+	top: 30%
+}*/
+
 #button-container {
 	position: absolute;
 	left: 80%;
@@ -83,24 +90,48 @@ nav {
 	/*padding: 20px 10px;*/
 }
 
-#nav-tools {
-	/*margin: 20px;*/
+#nav-container {
 	position: relative;
-	left: 25%;
+	margin-left: 12em;
+	align-content: center;
+}
+
+#nav-tools {
+	position: relative;
 }
 
 .post img {
 	width: 20px;
 }
 
+.dropdown {
+	padding: 10px;
+}
+
+#alt-searchbox {
+	padding: 10px;
+}
+
+#alt-searchbox input {
+	width: 70%;
+    height: 30px;
+    position: relative;
+}
+
 #alt-searchbox #search-icon img {
-	width: 10px;
+	width: 20px;
+    height: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 30%)
 }
 
 #alt-searchbox a {
 	background-color: grey;
-	width: 10px;
-	height: 8px;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    transform: translate(10px, 1px);
 }
 
 #sidebar {
@@ -117,9 +148,6 @@ nav {
 	text-align: center;
 }
 
-.sidebar-content {
-
-}
 
 .top-buttons {
 	position: relative;
@@ -128,36 +156,51 @@ nav {
 
 .middle-buttons {
 	position: relative;
-	left: 50%;
-	transform: translateX(-30%);
-
 }
 
 .button-container {
 	padding: 0px 10px 10px 10px;
 }
 
+.button-container button {
+
+}
+
+.button-container button:hover {
+	opacity: 0.8;
+}
+
 .checkboxes {
-	margin: 20px;
+	margin: 20px 0px 0px 10px;
 }
 
 .checkboxes .box {
-	padding: 20px 0px 20px 0px;
+	margin-bottom: 10px;
 }
 
 .bottom-buttons {
 	position: relative;
-	margin: 20px;
+	margin: 10px;
 }
 
 #container {
-	position: relative; 
-	/*margin-top: 20px;*/
+	/*position: relative; 
+	width: 100%;
+	height: 29em;
+	overflow-y: auto;
+	text-align: center;*/
+	/*transform: translateX(10%);*/
+
+	margin-top: 20px;
 	padding: 10px;
-	width: 80em;
-	height: 30em;
+	width: 80%;
+	height: 90%;
 	overflow-y: auto;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	position: relative;
+	transform: translateX(25%);
 }
 
 .post {
@@ -169,15 +212,13 @@ nav {
 	position: relative;
 	padding: 0px 20px;
 	margin: 20px;
-	right: 50px;
+	transform: translateX(-20%);
 }
 
 .post:hover {
 	box-shadow: 0 16px 20px 0 rgba(0,0,0,0.2);
 }
 
-.container {
-}
 
 .img-container {
 	max-width: 250px;
@@ -195,8 +236,6 @@ nav {
 	margin: 10px;
 	left: 50%;
 	transform: translateX(-50%);
-	/*overflow: hidden;*/
-	/*z-index: 1;*/
 }
 
 .price {
@@ -208,19 +247,11 @@ nav {
     transform: translateX(-10px);
 }
 
-/*.price b {
-	z-index: 100;
-    position: absolute;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    left: 150px;
-    top: 350px;
-}*/
-
 .pinfo-container {
-	/*padding: 2px 16px;*/
 	position: relative;
+	background-color: pink;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
 }
 
 

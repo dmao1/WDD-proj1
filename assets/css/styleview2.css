@@ -84,24 +84,63 @@ nav {
 	/*padding: 20px 10px;*/
 }
 
-#nav-tools {
-	/*margin: 20px;*/
+#nav-container {
 	position: relative;
-	left: 20%;
+	margin-left: 12em;
+	align-content: center;
 }
 
-#alt-searchbox #search-icon img {
+#nav-tools {
+	position: relative;
+}
+
+/*#nav-tools {
+	position: relative;
+	left: 20%;
+}*/
+
+.dropdown {
+	padding: 10px;
+}
+
+#alt-searchbox {
+	padding: 10px
+}
+
+#alt-searchbox input {
+	width: 70%;
+    height: 30px;
+    position: relative;
+}
+
+/*#alt-searchbox #search-icon img {
 	margin-top: 20px;
 	width: 10px;
 	padding-left: 3px;
 	padding-right: 3px;
 	background-color: gray;
+}*/
+
+#alt-searchbox #search-icon img {
+	width: 20px;
+    height: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 30%)
 }
 
-#alt-searchbox a {
+/*#alt-searchbox a {
 	background-color: grey;
 	width: 10px;
 	height: 8px;
+}*/
+
+#alt-searchbox a {
+	background-color: grey;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    transform: translate(10px, 1px);
 }
 
 #sidebar {
@@ -125,10 +164,14 @@ nav {
 	position: relative;
 }
 
-.middle-buttons {
+/*.middle-buttons {
 	position: relative;
 	left: 50%;
 	transform: translateX(-30%);
+}*/
+
+.middle-buttons {
+	position: relative;
 }
 
 .button-container {
@@ -136,19 +179,18 @@ nav {
 }
 
 .checkboxes {
-	margin: 20px;
+    margin: 20px 0px 0px 10px;
 }
 
 .checkboxes .box {
-	padding: 20px 0px 20px 0px;
+	margin-bottom: 10px;
 }
-
 .bottom-buttons {
 	position: relative;
-	margin: 20px;
+	margin: 10px;
 }
 
-#list-container{
+/*#list-container{
 	margin-top: 20px;
 	padding: 10px;
 	width: 70em;
@@ -158,6 +200,19 @@ nav {
 	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
 	position: relative;
+}*/
+
+#list-container {
+	margin-top: 20px;
+	padding: 10px;
+	width: 70em;
+	height: 30em;
+	overflow-y: auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	position: relative;
+	transform: translateX(25%);
 }
 
 table, th, td{

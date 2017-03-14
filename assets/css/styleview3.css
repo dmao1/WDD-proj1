@@ -56,6 +56,7 @@ nav {
 #copyright {
 	position: absolute;
 	left: 50%;
+	color: white;
 }
 
 .footer-item a:hover, .footer-item2 a:hover {

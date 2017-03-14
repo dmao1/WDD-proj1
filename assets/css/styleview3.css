@@ -129,6 +129,7 @@ nav {
 
 .checkboxes {
 	margin: 20px 0px 0px 10px;
+	font-size: 18px;
 }
 
 .checkboxes .box {
@@ -208,7 +209,7 @@ nav {
 
 .pinfo-container {
 	position: relative;
-	background-color: white;
+	background-color: #f2efe8;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 }

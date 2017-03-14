@@ -58,8 +58,8 @@ nav {
 
 #alt-searchbox input {
 	width: 70%;
-    height: 30px;
-    position: relative;
+  height: 30px;
+  position: relative;
 }
 
 #alt-searchbox #search-icon img {
@@ -90,24 +90,37 @@ nav {
 #sidebar-h1 {
 	margin: 10px;
 	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 48px;
+}
+
+#sidebar-h2 {
+	margin: 10px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 .top-buttons {
 	position: relative;
-
+	margin: 5px;
+	margin-bottom: 2px;
 }
 
 .middle-buttons {
 	position: relative;
+	margin: 5px;
+	margin-bottom: 0px;
 }
 
 .button-container {
-	padding: 0px 10px 10px 10px;
+	padding: 5px 10px 5px 10px;
 }
 
 .button-container button {
-
+	font-family: "Roboto", sans-serif;
+	background-color: white;
+	border: 2px;
 }
 
 .button-container button:hover {
@@ -144,14 +157,14 @@ nav {
 	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
 	position: relative;
-	transform: translateX(15%);
+	transform: translate(90px, 0px);
 }
 
 .post {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
 	width: 250px;
-	height: 280px;
+	height: 300px;
 	float: right;
 	position: relative;
 	padding: 0px 20px;
@@ -186,7 +199,7 @@ nav {
 
 .price {
     position: absolute;
-    color: #f2cbbc;
+    color: #b56969;
     font-size: 24px;
     top: 0px;
     background: rgba(242, 239, 232, 1);

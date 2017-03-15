@@ -36,13 +36,13 @@ nav {
 
 #nav-container {
 	position: relative;
-	margin-left: 17.5%;
+	margin-left: 26%;
 	align-content: center;
+	width: 74%
 }
 
 #nav-tools {
 	position: relative;
-    padding-left: 5%;
 }
 
 .post img {
@@ -145,26 +145,19 @@ nav {
 }
 
 #container {
-	/*position: relative;
-	width: 100%;
-	height: 29em;
-	overflow-y: auto;
-	text-align: center;*/
-	/*transform: translateX(10%);*/
-
-	margin-top: 5px;
-	padding: 15px;
-	width: 80%;
-	height: 90%;
-	overflow-y: auto;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 10pt;
-	position: relative;
-	/*-webkit-transform: translateX(220px);*/
-	margin-left: 17.5%;
+    /* transform: translateX(10%); */
+    margin-top: 5px;
+    padding: 10px 20px;
+    width: 74%;
+    height: 90%;
+    overflow-y: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    position: relative;
+    -webkit-transform: translateX(-5%);
+    margin-left: 26%;
 }
-
 .post {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;

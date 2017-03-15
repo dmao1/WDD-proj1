@@ -5,7 +5,7 @@ body, html {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	/*overflow: hidden;*/
+	overflow-x: hidden;
 	background-color: #f2efe8;
 }
 

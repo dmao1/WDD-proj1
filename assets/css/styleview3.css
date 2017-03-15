@@ -36,14 +36,13 @@ nav {
 
 #nav-container {
 	position: relative;
-	margin-left: 220px;
+	margin-left: 17.5%;
 	align-content: center;
 }
 
 #nav-tools {
 	position: relative;
-	background-color: #c2d4d8;
-    padding-left: 55px;
+    padding-left: 5%;
 }
 
 .post img {
@@ -162,7 +161,8 @@ nav {
 	font-family: 'Roboto', sans-serif;
 	font-size: 10pt;
 	position: relative;
-	transform: translateX(220px);
+	/*-webkit-transform: translateX(220px);*/
+	margin-left: 17.5%;
 }
 
 .post {

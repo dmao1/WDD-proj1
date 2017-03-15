@@ -42,7 +42,7 @@ nav {
 
 #nav-tools {
 	position: relative;
-	left: 5%;
+    padding-left: 5%;
 }
 
 .dropdown {

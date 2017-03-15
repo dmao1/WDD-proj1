@@ -78,7 +78,7 @@ body, html {
 }
 
 #image img {
-	width: 25em;
+	width: 23em;
 }
 
 #map {
@@ -111,7 +111,7 @@ body, html {
 	height: 10em;
 	vertical-align: top;
 	display: inline-block;
-	transform: translateX(95%);
+	transform: translateX(86%);
 	overflow-x:hidden;
 }
 

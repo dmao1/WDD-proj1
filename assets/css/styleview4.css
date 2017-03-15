@@ -10,23 +10,23 @@ body, html {
 }
 
 #container {
-   width: 1100px;
-   margin: 0px auto;
-   box-shadow: 10px 10px 5px #8E8C8C;
-   height: 550px;
+   width: 68.75em;
+   margin: 0em auto;
+   box-shadow: 0.625em 0.625em 0.3125em #8E8C8C;
+   height: 34.375em;
    position: absolute;
    left: 50%;
-   transform: translate(-50%, 85px);
-   -ms-transform: translate(-50%, 85px);
-   -webkit-transform: translate(-50%, 85px);
+   transform: translate(-50%, 5.3125em);
+   -ms-transform: translate(-50%, 5.3125em);
+   -webkit-transform: translate(-50%, 5.3125em);
 }
 
 #important-info {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 20px;
-	margin-left: 25px;
+	margin-top: 1.25em;
+	margin-left: 1.5625em;
 }
 
 #price {
@@ -34,13 +34,13 @@ body, html {
 }
 
 .info {
-	margin: 5px 0px;
+	margin: 0.3125em 0em;
 }
 
 #image-container {
 	position: relative;
 	display: inline-block; 
-	margin-top: 33px;
+	margin-top: 2em;
 }
 
 #image-container #image {

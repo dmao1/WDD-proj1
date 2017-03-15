@@ -103,6 +103,16 @@ body, html {
 	display: inline-block;
 	transform: translateX(643%);
 	font-family: 'Roboto', sans-serif;
+	background-color: #b0aac2;
+	color: white;
+	outline: none;
+	border-width: 1px;
+	border-color: #705d89;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.15s ease;
+	padding: 8px 16px;
+	margin: 5px;
 }
 
 #top-bar {

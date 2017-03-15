@@ -34,15 +34,22 @@ nav {
 	/*padding: 20px 10px;*/
 }
 
-#nav-container {
+/*#nav-container {
 	position: relative;
 	margin-left: 12em;
 	align-content: center;
+}*/
+
+#nav-container {
+	position: relative;
+	margin-left: 26%;
+	align-content: center;
+	width: 74%
 }
 
 #nav-tools {
 	position: relative;
-    padding-left: 5%;
+    /*padding-left: 5%;*/
 }
 
 .dropdown {

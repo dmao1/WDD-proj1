@@ -9,17 +9,26 @@ body, html {
 	/*overflow: hidden;*/
 }
 
+#container-container {
+	width: 100%;
+	/*height: 100vh;*/
+	position: fixed;
+}
+
 #container {
    width: 68.75em;
    margin: 0em auto;
-   margin-top: 1.25em;
+   /*margin-top: 1.25em;*/
+   margin-bottom: 1.25em;
    box-shadow: 0.625em 0.625em 0.3125em #8E8C8C;
-   height: 36em;
+   height: 31em;
    position: absolute;
    left: 50%;
    transform: translate(-50%, 5.3125em);
    -ms-transform: translate(-50%, 5.3125em);
    -webkit-transform: translate(-50%, 5.3125em);
+   /*top: 2em;*/
+
 }
 
 #important-info {
@@ -98,7 +107,7 @@ body, html {
 	width: 25em;
 	bottom: -9.375em;
 	overflow: scroll;
-	height: 12.7em;
+	height: 10em;
 	vertical-align: top;
 	display: inline-block;
 	transform: translateX(95%);

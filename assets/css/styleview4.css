@@ -12,8 +12,9 @@ body, html {
 #container {
    width: 68.75em;
    margin: 0em auto;
+   margin-top: 1.25em;
    box-shadow: 0.625em 0.625em 0.3125em #8E8C8C;
-   height: 34.375em;
+   height: 36em;
    position: absolute;
    left: 50%;
    transform: translate(-50%, 5.3125em);
@@ -93,7 +94,7 @@ body, html {
 }
 
 #text-container {
-	margin-top: 0.125em;
+	margin-top: 0.3em;
 	width: 25em;
 	bottom: -9.375em;
 	overflow: scroll;
@@ -106,18 +107,18 @@ body, html {
 #contact {
 	vertical-align: top;
 	display: inline-block;
-	transform: translateX(660%);
+	transform: translateX(590%);
 	font-family: 'Roboto', sans-serif;
 	background-color: #b0aac2;
 	color: white;
 	outline: none;
-	border-width: 1px;
+	border-width: 0.0625em;
 	border-color: #705d89;
-	border-radius: 5px;
+	border-radius: 0.3125em;
 	cursor: pointer;
 	transition: all 0.15s ease;
-	padding: 8px 16px;
-	margin: 5px;
+	padding: 0.5em 1em;
+	margin: 0.3125em;
 }
 
 #top-bar {

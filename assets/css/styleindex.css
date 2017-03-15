@@ -100,7 +100,8 @@ nav {
 
 .menu-item:hover .sub-menu {
 	visibility: visible;
-	transition: 0.3s
+	transition: 0.3s;
+	position: absolute;
 }
 
 .sub-menu {
@@ -196,6 +197,7 @@ nav {
 	top: 45%;
 	left: 44.4%;
 	transform: translateX(-50%);
+	z-index: 2;
 }
 
 #searchbox input[type=text] ::placeholder {

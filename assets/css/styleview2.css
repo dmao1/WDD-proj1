@@ -33,15 +33,28 @@ nav {
 	top: 30%
 }
 
+/*#nav-container {
+	position: relative;
+	margin-left: 26%;
+	align-content: center;
+<<<<<<< HEAD
+}*/
+
 #nav-container {
 	position: relative;
 	margin-left: 26%;
 	align-content: center;
+=======
+>>>>>>> 2f5028f5d3e34924c83e01a2fd5a063b34ac07f2
 	width: 74%
 }
 
 #nav-tools {
 	position: relative;
+<<<<<<< HEAD
+    /*padding-left: 5%;*/
+=======
+>>>>>>> 2f5028f5d3e34924c83e01a2fd5a063b34ac07f2
 }
 
 .dropdown {

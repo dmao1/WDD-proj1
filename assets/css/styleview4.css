@@ -12,18 +12,19 @@ body, html {
 #container {
    width: 1100px;
    margin: 0px auto;
-   /*padding: 30px 0px;*/
    box-shadow: 10px 10px 5px #8E8C8C;
    height: 500px;
    position: absolute;
    left: 50%;
-   transform: translate(-50%, 110px);
-   -ms-transform: translate(-50%, 110px);
-   -webkit-transform: translate(-50%, 110px);
+   transform: translate(-50%, 85px);
+   -ms-transform: translate(-50%, 85px);
+   -webkit-transform: translate(-50%, 85px);
 }
 
 #important-info {
 	position: relative;
+	display: inline-block;
+	vertical-align: top;
 	/*float: left;*/
 }
 
@@ -43,21 +44,58 @@ body, html {
 
 }
 
-#image {
+#image-container {
 	position: relative;
+	margin: 0px auto;
+	display: inline-block; 
+	margin-top: 15px;
+}
+
+#image-container #image {
+	position: relative;
+	left: 40%;
+}
+
+#image-container #map {
+	position: relative;
+	left: 60%;
+}
+
+#image {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#image img {
+	width: 400px;
+}
+
+#map {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#map img {
+	width: 200px;
 }
 
 #description {
-
+	font-size: 15px;
+	line-height: 30px;
 }
 
 #text-container {
-	position: relative;
+	/*position: relative;*/
 	/*clear: both;*/
 	margin: 0 auto;
 	width: 400px;
 	bottom: -150px;
+	overflow: scroll;
+	height: 250px;
 }
+
+/*#middle {
+}*/
 
 #top-bar {
 	position: fixed;

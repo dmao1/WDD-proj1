@@ -5,7 +5,7 @@ body, html {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	/*overflow: hidden;*/
+	overflow-x: hidden;
 	background-color: #f2efe8;
 }
 
@@ -64,18 +64,18 @@ nav {
 
 #alt-searchbox #search-icon img {
 	width: 20px;
-    height: 20px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 30%)
+  height: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 30%)
 }
 
 #alt-searchbox a {
 	background-color: grey;
-    width: 34px;
-    height: 34px;
-    position: absolute;
-    transform: translate(10px, 1px);
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  transform: translate(10px, 1px);
 }
 
 #sidebar {
@@ -103,14 +103,12 @@ nav {
 
 .top-buttons {
 	position: relative;
-	margin: 5px;
-	margin-bottom: 2px;
+	margin-left: 5px;
 }
 
 .middle-buttons {
 	position: relative;
-	margin: 5px;
-	margin-bottom: 0px;
+	margin-left: 5px;
 }
 
 .button-container {
@@ -121,6 +119,9 @@ nav {
 	font-family: "Roboto", sans-serif;
 	background-color: white;
 	border: 2px;
+	border-radius: 3px;
+	margin-right: 5px;
+	padding: 3px 5px;
 }
 
 .button-container button:hover {
@@ -138,7 +139,8 @@ nav {
 
 .bottom-buttons {
 	position: relative;
-	margin: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
 }
 
 #container {
@@ -189,22 +191,23 @@ nav {
 .img-container img {
 	position: relative;
 	display: block;
-  	max-width: 300px;
-  	max-height: 200px;
-  	width: auto;
-  	height: auto;
+	max-width: 300px;
+	max-height: 200px;
+	width: auto;
+	height: auto;
 	margin: 10px;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
 .price {
-    position: absolute;
-    color: #b56969;
-    font-size: 24px;
-    top: 0px;
-    background: rgba(242, 239, 232, 1);
-    transform: translateX(-10px);
+  position: absolute;
+  color: #b56969;
+  font-size: 24px;
+  top: 0px;
+  background: rgba(255, 255, 255, 1);
+  transform: translateX(-10px);
+	padding: 5px;
 }
 
 .pinfo-container {

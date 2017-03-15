@@ -8,6 +8,7 @@ body, html {
 	left: 0;
 	right: 0;
 	/*overflow: hidden;*/
+	background-color: #c8bfd4;
 }
 
 nav {
@@ -39,7 +40,7 @@ nav {
 	top: 100%;
 	right: 0%;
 	transform: translateY(-100%);
-	box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+	box-shadow: 30px 0px 40px rgba(0,0,0,.1);
 }
 
 .menu .footer {
@@ -73,7 +74,7 @@ nav {
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
-	opacity: 0.6;
+	opacity: 0.9;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
@@ -83,7 +84,7 @@ nav {
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 70px;
-	opacity: 0.6;
+	opacity: 0.9;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
@@ -92,8 +93,9 @@ nav {
 .menu-item a:hover {
 	/*background-color: rgb(122,89,155);*/
 	/*color: #f2f2f2;*/
-	background-color: #222;
-	opacity: 0.4;
+	background-color: white;
+	color: #615176;
+	opacity: 0.8;
 }
 
 .menu-item:hover .sub-menu {
@@ -102,21 +104,27 @@ nav {
 }
 
 .sub-menu {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 8px;
 	list-style-type: none;
 	position: absolute;
-	background-color: #b0aac2;
+	background-color: #efedf3;
 	visibility: hidden;
 }
 
+.sub-menu a {
+	padding: 10px;
+	color: #705d89;
+	transform: translateX(20px);
+}
 
 #copyright {
 	position: absolute;
-	left: 30%;
+	left: 45.4%;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
+	font-weight: 100;
 }
 
 .footer-item a:hover, .footer-item2 a:hover {
@@ -136,16 +144,18 @@ nav {
 }
 
 #search, #calendar {
-	background-color: #c2d4d8;
-	color: black;
+	background-color: white;
+	color: #615176;
 	outline: none;
-	border: none;
+	border-width: 1px;
+	border-color: #705d89;
 	border-radius: 5px;
 	cursor: default;
 	transition: all 0.15s ease;
 	font-family: 'Roboto', sans-serif;
 	padding: 4px 8px;
 	margin: 1px;
+	top: 44.5%;
 	/*height: 50px;
 	width: 200px;*/
 }
@@ -164,10 +174,11 @@ nav {
 }
 
 #post, #account {
-	background-color: #c2d4d8;
-	color: black;
+	background-color: white;
+	color: #615176;
 	outline: none;
-	border: none;
+	border-width: 1px;
+	border-color: #705d89;
 	border-radius: 5px;
 	cursor: default;
 	transition: all 0.15s ease;
@@ -183,12 +194,19 @@ nav {
 #searchbox {
 	position: absolute;
 	top: 45%;
-	left: 50%;
+	left: 44.4%;
 	transform: translateX(-50%);
 }
 
-#searchbar::placeholder {
+#searchbox input[type=text] ::placeholder {
 	font-family: 'Roboto', sans-serif;
+}
+
+#searchbox input[type=text] {
+    width: 150%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 #craigs-list {
@@ -202,5 +220,5 @@ nav {
   transform: translateX(-50%);
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 100;
-	color: #c2d4d8;
+	color: white;
 }

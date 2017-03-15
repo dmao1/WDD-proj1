@@ -13,7 +13,7 @@ body, html {
    width: 1100px;
    margin: 0px auto;
    box-shadow: 10px 10px 5px #8E8C8C;
-   height: 500px;
+   height: 550px;
    position: absolute;
    left: 50%;
    transform: translate(-50%, 85px);
@@ -25,28 +25,28 @@ body, html {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
-	/*float: left;*/
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 #price {
-
+	font-size: 2.4em;
 }
 
 #rooms {
-
+	margin: 5px 0px;
 }
 
 #space {
-
+	margin: 5px 0px;
 }
 
 #availability {
-
+	margin: 5px 0px;
 }
 
 #image-container {
 	position: relative;
-	margin: 0px auto;
 	display: inline-block; 
 	margin-top: 15px;
 }
@@ -64,6 +64,7 @@ body, html {
 #image {
 	display: inline-block;
 	vertical-align: top;
+	margin-bottom: 10px;
 }
 
 #image img {
@@ -84,18 +85,26 @@ body, html {
 	line-height: 30px;
 }
 
+#second {
+	position: relative;
+	/*display: inline-block;*/
+}
+
 #text-container {
-	/*position: relative;*/
-	/*clear: both;*/
-	margin: 0 auto;
 	width: 400px;
 	bottom: -150px;
 	overflow: scroll;
-	height: 250px;
+	height: 225px;
+	vertical-align: top;
+	display: inline-block;
+	/*transform: translateX(95%); */
 }
 
-/*#middle {
-}*/
+#contact {
+	vertical-align: top;
+	display: inline-block;
+	/*transform: translateX(675%); */
+}
 
 #top-bar {
 	position: fixed;
@@ -105,9 +114,13 @@ body, html {
 	box-shadow: 0px 30px 40px rgba(0,0,0,.1);
 }
 
-#item-title {
+#title-container {
 	background-color: #E1DDDD;
 	padding: 10px 5px;
+}
+
+#title {
+
 }
 
 #back {
@@ -130,7 +143,7 @@ body, html {
 #back-container {
 	position: absolute;
 	top: 30%;
-	left: 5%;
+	left: 4%;
 }
 
 #button-container {

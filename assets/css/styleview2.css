@@ -1,3 +1,5 @@
+/* style sheet for list view "view2.html" */
+
 body, html {
 	margin: 0;
 	position: fixed;
@@ -58,18 +60,18 @@ nav {
 
 #alt-searchbox #search-icon img {
 	width: 20px;
-    height: 20px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 30%)
+  height: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 30%);
 }
 
 #alt-searchbox a {
 	background-color: grey;
-    width: 34px;
-    height: 34px;
-    position: absolute;
-    transform: translate(10px, 1px);
+  width: 34px;
+	height: 34px;
+  position: absolute;
+  transform: translate(10px, 1px);
 }
 
 #sidebar {

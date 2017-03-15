@@ -6,6 +6,7 @@ body, html {
 	left: 0;
 	right: 0;
 	overflow: hidden;
+	background-color: #f2efe8;
 }
 
 nav {
@@ -24,7 +25,7 @@ nav {
 }
 
 .footer-bar {
-	background-color: #494E6B;
+	background-color: #b0aac2;
 	width: 100%;
 	position: fixed;
 	top: 100%;
@@ -144,7 +145,7 @@ nav {
 }
 
 #sidebar {
-	background-color: #494E6B;
+	background-color: #b0aac2;
 	float: left;
 	height: 100vh;
 	position: fixed;
@@ -206,7 +207,7 @@ nav {
 	margin-top: 20px;
 	padding: 10px;
 	width: 70em;
-	height: 30em;
+	height: 35em;
 	overflow-y: auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -228,7 +229,7 @@ th, td{
 }
 
 th{
-	background-color: #494E6B;
+	background-color: #b0aac2;
   color: white;
 }
 
